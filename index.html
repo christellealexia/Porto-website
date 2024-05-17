@@ -7,9 +7,9 @@
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
 </head>
-<body>
+<body class="overflow-x-hidden">
   <!-- first nav-bar -->
-  <div class=" lg:flex-row bg-gray-950 justify-between px-40 hidden">
+  <div class=" lg:flex flex-row bg-gray-950 justify-between px-40  hidden">
     <div class="flex gap-5">
       <div class="flex gap-4 justify-center align-center">
         <p class="text-white">About the university</p> <i class="fa-solid fa-caret-down" style="color: #5d6065;"></i>
@@ -38,12 +38,12 @@
   <!-- end of first nav-bar -->
   <!-- Second nav-bar begin -->
   <div class="flex flex-row bg-gray-200">
-    <div class=" flex flex-row lg:px-40 lg:gap-20 px-5 gap-5 lg:justify-between mt-10 justify-center">
-      <div class="flex-1">
+    <div class=" flex flex-row lg:px-40 lg:gap-20 px-5 gap-5 lg:justify-between my-5 justify-center">
+      <div class="flex-1 lg:hidden">
         <i class="fa-solid fa-bars" style="color: #000000;"></i>
       </div>
     <div class="flex-1">
-      <img src="porto-images/logo.svg" class="lg:h-32 w-96 w-auto"></div>
+      <img src="porto-images/logo.svg" class="lg:h-24 w-96"></div>
     <div class="flex-1 lg:flex flex-row justify-end gap-8 hidden">
     <div class="flex-1 flex gap-4 mt-10 text-[20px]">
       <h1 class="font-bold uppercase">Study</h1>
@@ -69,30 +69,30 @@
     <div>
     <img src="porto-images/programa-de-formacao-multidisplinar-uporto-s.format-jpeg.jpg" class="w-full h-[80vh] object-cover">
   </div>
-  <div class="absolute bottom-40 left-0  mx-32 w-[500px]  bg-black opacity-70">
+  <div class="absolute bottom-0 lg:bottom-40 left-0   lg:mx-32 lg:w-[500px] w-full  bg-black opacity-70">
 <h1 class="text-white  mx-5 my-5">Let us grow together</h1>
-<p class="mx-5 text-white my-5">“It means that you and your partner are not only compatible, but also willing to learn, change, and evolve together,” he says. Growth in a relationship, he adds, can take many forms, such as overcoming challenges, pursuing goals</p>
+<p class="lg:mx-5 text-white my-5 lg:block hidden">“It means that you and your partner are not only compatible, but also willing to learn, change, and evolve together,” he says. Growth in a relationship, he adds, can take many forms, such as overcoming challenges, pursuing goals</p>
 <button class="bg-[#a18a4d] px-6 py-2 text-black mx-8">See more</button>
   </div>
 </div>
 <div>
-  <h1 class="text-[60px] pl-40 text-[#a18a4d] mt-20">Study</h1>
+  <h1 class="text-[60px] lg:pl-40 text-[#a18a4d] mt-20 pl-5">Study</h1>
 </div>
-<div class="flex justify-between mt-10 px-40 gap-10"> 
+<div class="lg:flex-row flex flex-col justify-between mt-10 lg:px-40 gap-10 px-5"> 
 <div>
-  <h1 class="text-3xl">Your future is here</h1>
+  <h1 class="text-3xl mx-5">Your future is here</h1>
 </div>
 <div>
-  <p class="mx-9 text-2xl">Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who want to build an academic path of excellence and properly valued by the labour market.</p>
+  <p class="lg:mx-9 text-2xl mx-5 mt-5">Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who want to build an academic path of excellence and properly valued by the labour market.</p>
 </div>
 </div>
 <!-- End of the third section -->
-<h1 class="pl-40 text-3xl mt-20 mb-5">Which course are you looking for?</h1>
+<h1 class="lg:pl-40 text-3xl mt-20 mb-5 pl-5">Which course are you looking for?</h1>
 <div class="flex gap-8">
-<div class=" flex-1 pl-40 flex flex-col gap-4">
-  <input type="text" placeholder=" All" class="bg-white border border-black w-full h-16 text-[20px]"></input>
-  <input type="text" placeholder=" Please enter course keywords..." class="bg-white border border-black w-full h-16 text-[20px]"></input>
-  <button class="bg-[#a18a4d] px-64 py-4">Search</button>
+<div class=" flex-1 lg:pl-40 flex flex-col gap-4 px-5">
+  <input type="text" placeholder=" All" class="bg-white border border-black lg:w-full w-[350px] h-16 text-[20px]"></input>
+  <input type="text" placeholder=" Please enter course keywords..." class="bg-white border border-black lg:w-full w-[350px] h-16 text-[20px]"></input>
+  <button class="bg-[#a18a4d] lg:px-64 lg:py-4 w-[350px]">Search</button>
 </div>
 <div class="flex-1 flex flex-col">
   <h1 class="text-3xl mb-5">Courses from A to Z:</h1>
