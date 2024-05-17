@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['lato'],
+        // Add other font families as needed
+      }
+    },
   },
   plugins: [],
 }
