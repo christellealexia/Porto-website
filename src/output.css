@@ -1173,6 +1173,14 @@ video {
   padding-top: 2.5rem;
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-7 {
+  padding-bottom: 1.75rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1207,6 +1215,10 @@ video {
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .font-bold {
