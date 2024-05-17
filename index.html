@@ -1,331 +1,633 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="src/output.css" rel="stylesheet">
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
+   <meta charset="UTF-8"></meta>
+
+   <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+   ></meta>
+
+   <link
+      href="src/output.css"
+      rel="stylesheet"
+   ></link>
+
+   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+   <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css"
+   ></link>
 </head>
+
 <body class="overflow-x-hidden">
-  <!-- first nav-bar -->
-  <div class=" lg:flex flex-row bg-gray-950 justify-between px-40  hidden">
-    <div class="flex gap-5">
-      <div class="flex gap-4 justify-center align-center">
-        <p class="text-white">About the university</p> <i class="fa-solid fa-caret-down" style="color: #5d6065;"></i>
+   <!-- first nav-bar -->
+
+   <div class="lg:flex flex-row bg-gray-950 justify-between px-40 py-4 hidden">
+      <div class="flex gap-5">
+         <div class="flex gap-4 justify-center items-center">
+            <p class="text-white">About the university</p>
+
+            <i
+               class="fa-solid fa-caret-down m-auto"
+               style="color: #5d6065;"
+            ></i>
+         </div>
+
+         <div class="flex gap-4 justify-center items-center">
+            <p class="text-white">Faculties</p>
+
+            <i
+               class="fa-solid fa-caret-down"
+               style="color: #5d6065;"
+            ></i>
+         </div>
       </div>
-      <div class="flex gap-4 justify-center"> 
-        <p  class="text-white">Faculties</p> <i class="fa-solid fa-caret-down" style="color: #5d6065;"></i>
+
+      <div class="flex gap-5">
+         <div class="flex gap-5">
+            <div>
+               <i
+                  class="fa-brands fa-instagram"
+                  style="color: #ffffff;"
+               ></i>
+
+               <i
+                  class="fa-brands fa-youtube"
+                  style="color: #8d8e91;"
+               ></i>
+
+               <i
+                  class="fa-brands fa-x-twitter"
+                  style="color: #8d8e91;"
+               ></i>
+
+               <i
+                  class="fa-brands fa-linkedin"
+                  style="color: #ffffff;"
+               ></i>
+
+               <i
+                  class="fa-brands fa-linkedin"
+                  style="color: #ffffff;"
+               ></i>
+
+               <i
+                  class="fa-brands fa-linkedin"
+                  style="color: #ffffff;"
+               ></i>
+            </div>
+
+            <div class="flex gap-2">
+               <p class="text-gray-300">PT</p>
+
+               <p class="text-white">EN</p>
+            </div>
+         </div>
       </div>
-    </div>
-    <div class="flex gap-5">
-    <div class="flex gap-5">
+   </div>
+   <!-- end of first nav-bar -->
+   
+   <div>
+      <div class="sticky top-0 flex flex-row bg-gray-200">
+         <div class="flex flex-row lg:px-40 lg:gap-20 px-5 gap-5 lg:justify-between justify-center">
+            <div class="flex-1 lg:hidden">
+               <i
+                  class="fa-solid fa-bars"
+                  style="color: #000000;"
+               ></i>
+            </div>
+   
+            <div class="flex-1">
+               <img
+                  src="porto-images/logo.svg"
+                  class="lg:h-24 w-96"
+               >
+            </div>
+   
+            <div class="flex-1 lg:flex flex-row justify-end gap-8 hidden">
+               <div class="flex-1 flex gap-4 mt-10 text-[20px]">
+                  <h1 class="font-bold uppercase">Study</h1>
+   
+                  <h1 class="font-bold uppercase">Research</h1>
+   
+                  <h1 class="font-bold uppercase">Innovate</h1>
+   
+                  <h1 class="font-bold uppercase">Live</h1>
+   
+                  <h1 class="font-bold uppercase">Explore</h1>
+               </div>
+   
+               <div class="flex-1 flex flex-col mt-10">
+                  <div class="flex flex-row gap-6 justify-center">
+                     <p>Search</p>
+   
+                     <i
+                        class="fa-thin fa-magnifying-glass"
+                        style="color: #0f0f10;"
+                     ></i>
+                  </div>
+   
+                  <div class="bg-black h-0.5">
+                     <hr>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   
+      <!-- end of second nav-bar -->
+   
+      <div class="w-full relative">
+         <div>
+            <img
+               src="porto-images/programa-de-formacao-multidisplinar-uporto-s.format-jpeg.jpg"
+               class="w-full h-[80vh] object-cover"
+            >
+         </div>
+   
+         <div class="absolute bottom-0 lg:bottom-40 left-0   lg:mx-32 lg:w-[500px] w-full  bg-black opacity-70">
+            <h1 class="text-white  mx-5 my-5">Let us grow together</h1>
+   
+            <p class="lg:mx-5 text-white my-5 lg:block hidden">
+               “It means that you and your partner are not only compatible, but also willing to learn, change, and evolve together,” he says. Growth in a relationship, he adds, can take many forms, such as overcoming challenges, pursuing goals
+            </p>
+   
+            <button class="bg-[#a18a4d] px-6 py-2 text-black mx-8">See more</button>
+         </div>
+      </div>
+   
       <div>
-        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-        <i class="fa-brands fa-youtube" style="color: #8d8e91;"></i>
-        <i class="fa-brands fa-x-twitter" style="color: #8d8e91;" ></i>
-        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
-        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
-        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+         <h1 class="text-[60px] lg:pl-40 text-[#a18a4d] mt-20 pl-5">Study</h1>
       </div>
-      <div class="flex gap-2">
-        <p class="text-gray-300">PT</p>
-        <p class="text-white">EN</p>
+   
+      <div class="lg:flex-row flex flex-col justify-between mt-10 lg:px-40 gap-10 px-5">
+         <div>
+            <h1 class="text-3xl mx-5">Your future is here</h1>
+         </div>
+   
+         <div>
+            <p class="lg:mx-9 text-2xl mx-5 mt-5">
+               Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who want to build an academic path of excellence and properly valued by the labour market.
+            </p>
+         </div>
       </div>
-    </div>
-    </div>
-  </div>
-  <!-- end of first nav-bar -->
-  <!-- Second nav-bar begin -->
-  <div class="flex flex-row bg-gray-200">
-    <div class=" flex flex-row lg:px-40 lg:gap-20 px-5 gap-5 lg:justify-between my-5 justify-center">
-      <div class="flex-1 lg:hidden">
-        <i class="fa-solid fa-bars" style="color: #000000;"></i>
+   
+      <!-- End of the third section -->
+   
+      <h1 class="lg:pl-40 text-3xl mt-20 mb-5 pl-5">
+         Which course are you looking for?
+      </h1>
+   
+      <div class="flex lg:flex-row flex-col gap-8">
+         <div class="flex-1 lg:pl-40 flex flex-col gap-4 px-5">
+            <input
+               type="text"
+               placeholder="All"
+               class="bg-white border border-black lg:w-full w-[350px] h-16 text-[20px]"
+            ></input>
+   
+            <input
+               type="text"
+               placeholder="Please enter course keywords..."
+               class="bg-white border border-black lg:w-full w-[350px] h-16 text-[20px]"
+            ></input>
+   
+            <button class="bg-[#a18a4d]  lg:py-4 lg:w-full w-[350px]">Search</button>
+         </div>
+   
+         <div class="flex-1 flex flex-col mx-5">
+            <h1 class="text-3xl mb-5">Courses from A to Z:</h1>
+   
+            <a
+               href="#"
+               class="text-2xl underline font-extralight"
+            >
+               Bachelor's and integrated master's Degree
+            </a>
+   
+            <a
+               href="#"
+               class="text-2xl underline font-extralight"
+            >Master's degree</a>
+   
+            <a
+               href="#"
+               class="text-2xl underline font-extralight"
+            >Doctorates</a>
+         </div>
       </div>
-    <div class="flex-1">
-      <img src="porto-images/logo.svg" class="lg:h-24 w-96"></div>
-    <div class="flex-1 lg:flex flex-row justify-end gap-8 hidden">
-    <div class="flex-1 flex gap-4 mt-10 text-[20px]">
-      <h1 class="font-bold uppercase">Study</h1>
-      <h1 class="font-bold uppercase">Research</h1>
-      <h1 class="font-bold uppercase">Innovate</h1>
-      <h1 class="font-bold uppercase">Live</h1>
-      <h1 class="font-bold uppercase">Explore</h1>
-    </div>
-    <div class="flex-1 flex flex-col mt-10">
-      <div class=" flex flex-row gap-6 justify-center">
-      <p>Search</p>
-      <i class="fa-thin fa-magnifying-glass " style="color: #0f0f10;"></i>
-    </div>
-    <div class=" bg-black h-0.5">
-      <hr>
-    </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  <!-- end of second nav-bar -->
-  <div class="w-full relative">
-    <div>
-    <img src="porto-images/programa-de-formacao-multidisplinar-uporto-s.format-jpeg.jpg" class="w-full h-[80vh] object-cover">
-  </div>
-  <div class="absolute bottom-0 lg:bottom-40 left-0   lg:mx-32 lg:w-[500px] w-full  bg-black opacity-70">
-<h1 class="text-white  mx-5 my-5">Let us grow together</h1>
-<p class="lg:mx-5 text-white my-5 lg:block hidden">“It means that you and your partner are not only compatible, but also willing to learn, change, and evolve together,” he says. Growth in a relationship, he adds, can take many forms, such as overcoming challenges, pursuing goals</p>
-<button class="bg-[#a18a4d] px-6 py-2 text-black mx-8">See more</button>
-  </div>
-</div>
-<div>
-  <h1 class="text-[60px] lg:pl-40 text-[#a18a4d] mt-20 pl-5">Study</h1>
-</div>
-<div class="lg:flex-row flex flex-col justify-between mt-10 lg:px-40 gap-10 px-5"> 
-<div>
-  <h1 class="text-3xl mx-5">Your future is here</h1>
-</div>
-<div>
-  <p class="lg:mx-9 text-2xl mx-5 mt-5">Gathering the most complete offer of training programmes in Portugal, the 14 faculties of the U.Porto offer unique conditions to those who want to build an academic path of excellence and properly valued by the labour market.</p>
-</div>
-</div>
-<!-- End of the third section -->
-<h1 class="lg:pl-40 text-3xl mt-20 mb-5 pl-5">Which course are you looking for?</h1>
-<div class="flex lg:flex-row flex-col gap-8">
-<div class=" flex-1 lg:pl-40 flex flex-col gap-4 px-5">
-  <input type="text" placeholder=" All" class="bg-white border border-black lg:w-full w-[350px] h-16 text-[20px]"></input>
-  <input type="text" placeholder=" Please enter course keywords..." class="bg-white border border-black lg:w-full w-[350px] h-16 text-[20px]"></input>
-  <button class="bg-[#a18a4d]  lg:py-4 lg:w-full w-[350px]">Search</button>
-</div>
-<div class="flex-1 flex flex-col mx-5">
-  <h1 class="text-3xl mb-5">Courses from A to Z:</h1>
-  <a href="#" class="text-2xl underline font-extralight">Bachelor's and integrated master's Degree</a>
-  <a href="#" class="text-2xl underline font-extralight">Master's degree</a>
-  <a href="#" class="text-2xl underline font-extralight">Doctorates</a>
-</div>
-</div>
-  <!-- End of fourth section -->
-<div class="bg-gray-100 mt-20">
-<div class="flex lg:flex-row flex-col gap-2 lg:justify-between lg:px-40 pt-10 px-5">
-  <div>
-  <h1 class="text-[#a18a4d] text-[60px]">News</h1>
-</div>
-<div class="flex gap-4">
-  <div>
-  <h1 class="text-[#a18a4d] text-2xl ">All News</h1>
-</div>
-<div >
-  <i class="fa-solid fa-circle-chevron-right" style="color: #a18a4d;"></i>
-</div>
-</div>
-</div>
-<div class="flex lg:flex-row flex-col mt-10 gap-5 lg:px-40 px-5">
-  <div class="flex-1 bg-white lg:block hidden">
-    <div class="mx-5">
-      <h1 class="text-[#a18a4d] my-5">Desporota</h1>
-      <p class="mb-20  text-[20px]">U.Porto vai organizar Europeu Universitário de Futebol em 2027</p>
-      <p class="mb-5">14 May 2023</p>
-    </div>
-    <div>
-      <img src="porto-images/aerea-frente-edificios.jpg">
-    </div>
-
-  </div>
-  <div class="flex-1 bg-white">
-    <div class="mx-5">
-      <h1 class="text-[#a18a4d] my-5">Campus e Communidade | Ciencia e Innovacao | Multimedia | Video</h1>
-      <p class="mb-16  text-[20px]">Mais de 1000 estudantes foram ao IJUP "abrir as portas" da Ciência</p>
-      <p class="mb-5">14 May 2023</p>
-    </div>
-    <div>
-      <img src="porto-images/ijup-2024_12.format-jpeg.jpg">
-    </div>
-  </div>
-  <div class="flex-1 bg-white h-auto lg:block hidden">
-    <div class="mx-5">
-      <h1 class="text-[#a18a4d] my-5 ">Cultura</h1>
-      <p class="mb-20 text-[20px]">MHNC-UP abre "fora de horas" para celebrar os Museus e a Ciência
-      </p>
-      <p class="mb-5">14 May 2023</p>
-    </div>
-    <div>
-      <img src="porto-images/ijup-2024_31.jpg">
-    </div>
-  </div>
-</div>
-<div class="flex mt-10 lg:pl-40 gap-4 pl-5 pb-7">
-  <i class="fa-solid fa-square-caret-left text-[50px]" style="color: #c9cdd4;"></i>
-  <i class="fa-solid fa-square-caret-right text-[50px]" style="color: #a18a4d;"></i>
-</div>
-</div>
-<!-- End of fifth section -->
-<div style="background-image: url(./porto-images/minerva_01.png);" class="flex lg:flex-row flex-col h-[60vh] mt-20 lg:px-40 px-5">
-<div>
-  <h1 class=" text-[60px] text-[#a18a4d] ">We are a university of excellence</h1>
-</div>
-<div class=" flex flex-col bg-white text-[20px] font-extralight">
-  <p>With over 100 years of history, the University of Porto is a leading teaching and scientific research institution in Portugal and worldwide.</p>
-  <p class="mt-10">Considered the best Portuguese University and one of the best 100 European institutions according to the most important Higher Education rankings, U.Porto combines quality teaching and excellent research with the best academic experience.</p>
-  <p class="mt-10">We are waiting for you!</p>
-  <div class="mt-10">
-    <div>
-    <p>See more</p>
-    <i class="fa-solid fa-circle-chevron-right" style="color: #a18a4d;"></i>
-    </div>
-  </div>
-  </div>
-</div>
-
-</div>
-<div class="bg-gray-100 h-1 w-full"><hr></div>
-<!-- End of sixth section -->
-<div><h1 class="text-[60px] text-[#a18a4d] lg:pl-40 pl-5 lg:mt-20 mt-96">Research</h1></div>
-<div class="flex lg:flex-row flex-col lg:px-40 lg:mt-10 gap-6">
-  <div class="flex-1">
-    <h1 class="my-5 font-bold text-[60px]">Research University</h1>
-    <p class="my-5  text-[20px] font-extralight">With 48 research units and a highly qualified scientific community, the University of Porto is one of the largest producers of science in Portugal, contributing to almost 25% of all national scientific output.</p>
-    <p class="my-5  text-[20px] font-extralight">The excellence of our scientific ecosystem is particularly evident in the leading position the University occupies in the main international rankings of Higher Education.</p>
-  </div>
-  <div class="flex-1 ">
- <img src="porto-images/investigar-home_destaque.format-jpeg.jpg">
-  </div>
-</div>
-<div class="bg-[#a18a4d]">
-  <div class=" mt-10 flex flex-col justify-center items-center gap-8 text-white  lg:px-40 px-5">
-    <div class="flex justify-center items-center pt-20">
-      <div class="relative text-6xl">
-        <i class="fa-thin fa-bullhorn fa-rotate-by fa-2xl " style="--fa-rotate-angle: 300deg;"></i>
-  </div>
-    <div class=" absolute right-10 flex gap-2 justify-end">
+   
+      <!-- End of fourth section -->
+   
+      <div class="bg-gray-100 mt-20">
+         <div class="flex lg:flex-row flex-col gap-2 lg:justify-between lg:px-40 pt-10 px-5">
+            <div>
+               <h1 class="text-[#a18a4d] text-[60px]">News</h1>
+            </div>
+   
+            <div class="flex gap-4">
+               <div>
+                  <h1 class="text-[#a18a4d] text-2xl">All News</h1>
+               </div>
+   
+               <div>
+                  <i
+                     class="fa-solid fa-circle-chevron-right"
+                     style="color: #a18a4d;"
+                  ></i>
+               </div>
+            </div>
+         </div>
+   
+         <div class="flex lg:flex-row flex-col mt-10 gap-5 lg:px-40 px-5">
+            <div class="flex-1 bg-white lg:block hidden">
+               <div class="mx-5">
+                  <h1 class="text-[#a18a4d] my-5">Desporota</h1>
+   
+                  <p class="mb-20  text-[20px]">
+                     U.Porto vai organizar Europeu Universitário de Futebol em 2027
+                  </p>
+   
+                  <p class="mb-5">14 May 2023</p>
+               </div>
+   
+               <div>
+                  <img src="porto-images/aerea-frente-edificios.jpg">
+               </div>
+            </div>
+   
+            <div class="flex-1 bg-white">
+               <div class="mx-5">
+                  <h1 class="text-[#a18a4d] my-5">
+                     Campus e Communidade | Ciencia e Innovacao | Multimedia | Video
+                  </h1>
+   
+                  <p class="mb-16  text-[20px]">
+                     Mais de 1000 estudantes foram ao IJUP "abrir as portas" da Ciência
+                  </p>
+   
+                  <p class="mb-5">14 May 2023</p>
+               </div>
+   
+               <div>
+                  <img src="porto-images/ijup-2024_12.format-jpeg.jpg">
+               </div>
+            </div>
+   
+            <div class="flex-1 bg-white h-auto lg:block hidden">
+               <div class="mx-5">
+                  <h1 class="text-[#a18a4d] my-5">Cultura</h1>
+   
+                  <p class="mb-20 text-[20px]">
+                     MHNC-UP abre "fora de horas" para celebrar os Museus e a Ciência
+                  </p>
+   
+                  <p class="mb-5">14 May 2023</p>
+               </div>
+   
+               <div>
+                  <img src="porto-images/ijup-2024_31.jpg">
+               </div>
+            </div>
+         </div>
+   
+         <div class="flex mt-10 lg:pl-40 gap-4 pl-5 pb-7">
+            <i
+               class="fa-solid fa-square-caret-left text-[50px]"
+               style="color: #c9cdd4;"
+            ></i>
+   
+            <i
+               class="fa-solid fa-square-caret-right text-[50px]"
+               style="color: #a18a4d;"
+            ></i>
+         </div>
+      </div>
+   
+      <!-- End of fifth section -->
+   
+      <div
+         style="background-image: url(./porto-images/minerva_01.png);"
+         class="flex lg:flex-row flex-col h-[60vh] mt-20 lg:px-40 px-5"
+      >
+         <div>
+            <h1 class="text-[60px] text-[#a18a4d]">
+               We are a university of excellence
+            </h1>
+         </div>
+   
+         <div class="flex flex-col bg-white text-[20px] font-extralight">
+            <p>
+               With over 100 years of history, the University of Porto is a leading teaching and scientific research institution in Portugal and worldwide.
+            </p>
+   
+            <p class="mt-10">
+               Considered the best Portuguese University and one of the best 100 European institutions according to the most important Higher Education rankings, U.Porto combines quality teaching and excellent research with the best academic experience.
+            </p>
+   
+            <p class="mt-10">We are waiting for you!</p>
+   
+            <div class="mt-10">
+               <div>
+                  <p>See more</p>
+   
+                  <i
+                     class="fa-solid fa-circle-chevron-right"
+                     style="color: #a18a4d;"
+                  ></i>
+               </div>
+            </div>
+         </div>
+      </div>
+   
+      <div class="bg-gray-100 h-1 w-full">
+         <hr>
+      </div>
+   
+      <!-- End of sixth section -->
+   
       <div>
-    <p >Learn more</p>
-  </div>
-    <div>
-      <i class="fa-solid fa-circle-chevron-right" style="color: #ffffff;"></i>
-    </div>
-  </div>
-</div>
-<div class="flex flex-col items-center">
-  <div>
-  <h1 class="mt-10 text-[60px]">U.PORTO IN FIGURES</h1>
-</div>
-<div>
-  <h1 class="mt-10 text-3xl">2022/2023</h1>
-</div>
-</div>
-<div class="bg-white w-full">
-  <hr>
-</div>
-<div class="flex lg:flex-row flex-col justify-center lg:gap-40 gap-10 mb-5 text-3xl">
-  <p>+300<br>
-    Courses</p>
-  <p>+35.000<br>
-    Students enrolled</p>
-  <p>48<br>
-    Research Units</p>
-</div>
-  </div>
- 
-</div>
-<div><h1 class="text-3xl text-[#a18a4d] mt-20 lg:pl-40 px-5 mb-10">Frequently asked questions</h1></div>
-<div class="flex gap-5 lg:px-40 lg:mt-10 mt-5 mb-10 text-2xl px-5">
-  <h1>International students</h1>
-  <h1 class="lg:block hidden">Prospective students</h1>
-  <h1 class="lg:block hidden">Professionals</h1>
-  <h1 class="lg:block hidden">Alumni</h1>
-  <h1 class="lg:block hidden">U.porto students</h1>
-</div>
-<div class="bg-gray-200 mx-40 h-0.5"><hr></div>
-<div class="flex lg:flex-row flex-col-reverse lg:mt-10 mt-5 lg:px-40 px-5">
-  <div>
-    <h1 class="text-3xl text-[#a18a4d] mt-5">International Students</h1>
-    <p class="mt-10 text-2xl">Welcome! In this area you will find the answers you need to start and make the most of your experience at the University. We hope to help you... and welcome you soon!</p>
-    <div class="flex gap-4">
-      <div class="flex gap-3 mt-5">
-      <p class="text-[20px]">See more</p>
-     
-      <i class="fa-solid fa-circle-chevron-right m-auto" style="color: #a18a4d;"></i>
-    </div>
-    </div>
-    <div class="flex mt-10 gap-4">
-      <i class="fa-solid fa-square-caret-left text-[50px]" style="color: #c9cdd4;"></i>
-      <i class="fa-solid fa-square-caret-right text-[50px]" style="color: #a18a4d;"></i>
-    </div>
-  </div>
-  <div>
-    <img src="porto-images/gate-estudantes-internacionais.format-jpeg.jpg">
-  </div>
-</div>
-<div class="bg-[#333] text-white mt-20" style="background-image: url(./porto-images/img_minerva_footer.png);">
-  <div class="lg:px-40 px-5">
-<div class="flex lg:flex-row flex-col justify-center lg:gap-40 gap-4 lg:mt-20 pt-20 mt-5">
-<h1 class="text-[#a18a4d] text-[30px]">Media</h1>
-<div>
-<h1>U.Porto News</h1>
-<h1>Brochures and Presentations</h1>
-</div>
-<h1>U.Porto Agenda</h1>
-<h1>Media Contacts</h1>
-<h1>Image Manual</h1>
+         <h1 class="text-[60px] text-[#a18a4d] lg:pl-40 pl-5 lg:mt-20 mt-96">Research</h1>
+      </div>
+   
+      <div class="flex lg:flex-row flex-col lg:px-40 lg:mt-10 gap-6">
+         <div class="flex-1">
+            <h1 class="my-5 font-bold text-[60px]">Research University</h1>
+   
+            <p class="my-5  text-[20px] font-extralight">
+               With 48 research units and a highly qualified scientific community, the University of Porto is one of the largest producers of science in Portugal, contributing to almost 25% of all national scientific output.
+            </p>
+   
+            <p class="my-5  text-[20px] font-extralight">
+               The excellence of our scientific ecosystem is particularly evident in the leading position the University occupies in the main international rankings of Higher Education.
+            </p>
+         </div>
+   
+         <div class="flex-1">
+            <img src="porto-images/investigar-home_destaque.format-jpeg.jpg">
+         </div>
+      </div>
+   
+      <div class="bg-[#a18a4d]">
+         <div class="mt-10 flex flex-col justify-center items-center gap-8 text-white  lg:px-40 px-5">
+            <div class="flex justify-center items-center pt-20">
+               <div class="relative text-6xl">
+                  <i
+                     class="fa-thin fa-bullhorn fa-rotate-by fa-2xl"
+                     style="--fa-rotate-angle: 300deg;"
+                  ></i>
+               </div>
+   
+               <div class="absolute right-10 flex gap-2 justify-end">
+                  <div>
+                     <p>Learn more</p>
+                  </div>
+   
+                  <div>
+                     <i
+                        class="fa-solid fa-circle-chevron-right"
+                        style="color: #ffffff;"
+                     ></i>
+                  </div>
+               </div>
+            </div>
+   
+            <div class="flex flex-col items-center">
+               <div>
+                  <h1 class="mt-10 text-[60px]">U.PORTO IN FIGURES</h1>
+               </div>
+   
+               <div>
+                  <h1 class="mt-10 text-3xl">2022/2023</h1>
+               </div>
+            </div>
+   
+            <div class="bg-white w-full">
+               <hr>
+            </div>
+   
+            <div class="flex lg:flex-row flex-col justify-center lg:gap-40 gap-10 mb-5 text-3xl">
+               <p>
+                  +300
+   
+                  <br>
+                  Courses
+               </p>
+   
+               <p>
+                  +35.000
+   
+                  <br>
+                  Students enrolled
+               </p>
+   
+               <p>
+                  48
+   
+                  <br>
+                  Research Units
+               </p>
+            </div>
+         </div>
+      </div>
+   
+      <div>
+         <h1 class="text-3xl text-[#a18a4d] mt-20 lg:pl-40 px-5 mb-10">Frequently asked questions</h1>
+      </div>
+   
+      <div class="flex gap-5 lg:px-40 lg:mt-10 mt-5 mb-10 text-2xl px-5">
+         <h1>International students</h1>
+   
+         <h1 class="lg:block hidden">Prospective students</h1>
+   
+         <h1 class="lg:block hidden">Professionals</h1>
+   
+         <h1 class="lg:block hidden">Alumni</h1>
+   
+         <h1 class="lg:block hidden">U.porto students</h1>
+      </div>
+   
+      <div class="bg-gray-200 mx-40 h-0.5">
+         <hr>
+      </div>
+   
+      <div class="flex lg:flex-row flex-col-reverse lg:mt-10 mt-5 lg:px-40 px-5">
+         <div>
+            <h1 class="text-3xl text-[#a18a4d] mt-5">International Students</h1>
+   
+            <p class="mt-10 text-2xl">
+               Welcome! In this area you will find the answers you need to start and make the most of your experience at the University. We hope to help you... and welcome you soon!
+            </p>
+   
+            <div class="flex gap-4">
+               <div class="flex gap-3 mt-5">
+                  <p class="text-[20px]">See more</p>
+   
+                  <i
+                     class="fa-solid fa-circle-chevron-right m-auto"
+                     style="color: #a18a4d;"
+                  ></i>
+               </div>
+            </div>
+   
+            <div class="flex mt-10 gap-4">
+               <i
+                  class="fa-solid fa-square-caret-left text-[50px]"
+                  style="color: #c9cdd4;"
+               ></i>
+   
+               <i
+                  class="fa-solid fa-square-caret-right text-[50px]"
+                  style="color: #a18a4d;"
+               ></i>
+            </div>
+         </div>
+   
+         <div>
+            <img src="porto-images/gate-estudantes-internacionais.format-jpeg.jpg">
+         </div>
+      </div>
+   
+      <div
+         class="bg-[#333] text-white mt-20"
+         style="background-image: url(./porto-images/img_minerva_footer.png);"
+      >
+         <div class="lg:px-40 px-5">
+            <div class="flex lg:flex-row flex-col justify-center lg:gap-40 gap-4 lg:mt-20 pt-20 mt-5">
+               <h1 class="text-[#a18a4d] text-[30px]">Media</h1>
+   
+               <div>
+                  <h1>U.Porto News</h1>
+   
+                  <h1>Brochures and Presentations</h1>
+               </div>
+   
+               <h1>U.Porto Agenda</h1>
+   
+               <h1>Media Contacts</h1>
+   
+               <h1>Image Manual</h1>
+            </div>
+   
+            <!-- first line -->
+   
+            <div class="flex lg:flex-row flex-col justify-center lg:gap-40 gap-4 lg:mt-20 mt-5">
+               <h1 class="text-[#a18a4d] text-[30px]">U.porto</h1>
+   
+               <div>
+                  <h1>U.Porto News</h1>
+   
+                  <h1>Brochures and Presentations</h1>
+   
+                  <h1></h1>
+   
+                  <h1>Peer Mentoring</h1>
+               </div>
+   
+               <div>
+                  <h1>U.Porto Agenda</h1>
+   
+                  <h1>Peer Mentoring</h1>
+   
+                  <h1>AcademiaUP</h1>
+               </div>
+   
+               <div>
+                  <h1>Media Contacts</h1>
+   
+                  <h1>Complaints Portal</h1>
+   
+                  <h1>SIGARRA U.Porto</h1>
+               </div>
+   
+               <div>
+                  <h1>Image Manual</h1>
+   
+                  <h1>Educational Innovation</h1>
+   
+                  <h1>Former Students Portal</h1>
+               </div>
+            </div>
+   
+            <!-- Second line -->
+            <!-- Third line -->
+   
+            <div class="mt-20">
+               <hr>
+            </div>
+   
+            <!-- <Fourth line -->
+   
+            <div class="flex lg:flex-row flex-col justify-between lg:gap-40 gap-4 lg:mt-20 mt-5">
+               <div class="flex gap-10 text-xl">
+                  <i
+                     class="fa-brands fa-instagram"
+                     style="color: #ffffff;"
+                  ></i>
+   
+                  <i
+                     class="fa-brands fa-youtube"
+                     style="color: #8d8e91;"
+                  ></i>
+   
+                  <i
+                     class="fa-brands fa-linkedin"
+                     style="color: #ffffff;"
+                  ></i>
+   
+                  <i
+                     class="fa-brands fa-linkedin"
+                     style="color: #ffffff;"
+                  ></i>
+   
+                  <i
+                     class="fa-brands fa-linkedin"
+                     style="color: #ffffff;"
+                  ></i>
+               </div>
+   
+               <div>
+                  <h1>Contacts</h1>
+   
+                  <h1>
+                     Reitoria da Universidade do Porto
+                  </h1>
+   
+                  <h1 class="mt-5">
+                     Praça Gomes Teixeira
+   
+                     <br>
+                     4099-002 Porto, Portugal
+                  </h1>
+   
+                  <h1 class="mt-5">
+                     Tel.: (+351) 220 408 000
+   
+                     <br>
+                     E-mail: up@up.pt
+                  </h1>
+   
+                  <h1></h1>
+               </div>
+            </div>
+   
+            <div class="flex lg:flex-row flex-col gap-5 lg:gap-10 text-white lg:mt-20 mt-5 pb-5">
+               <h1>University of Porto 2024</h1>
+   
+               <h1>Personal Data Protectio</h1>
+   
+               <h1>Privacy Policy</h1>
+   
+               <h1>Accessibility</h1>
+            </div>
+   
+            <!-- Last line -->
+         </div>
+      </div>
+   </div>
 
-</div>
-<!-- first line -->
-<div class="flex lg:flex-row flex-col justify-center lg:gap-40 gap-4 lg:mt-20 mt-5">
-  <h1 class="text-[#a18a4d] text-[30px]">U.porto</h1>
-<div>
-<h1>U.Porto News</h1>
-<h1>Brochures and Presentations</h1>
-<h1></h1>
-<h1>Peer Mentoring</h1>
-
-</div>
-<div>
-<h1>U.Porto Agenda</h1>
-<h1>Peer Mentoring</h1>
-<h1>AcademiaUP</h1>
-</div>
-<div>
-<h1>Media Contacts</h1>
-<h1>Complaints Portal</h1>
-<h1>SIGARRA U.Porto</h1>
-</div>
-<div>
-<h1>Image Manual</h1>
-<h1>Educational Innovation</h1>
-<h1>Former Students Portal</h1>
-</div>
-</div>
-<!-- Second line  -->
-
-<!-- Third line -->
-<div class="mt-20">
-  <hr>
-</div>
-<!-- <Fourth line -->
-<div class="flex lg:flex-row flex-col justify-between lg:gap-40 gap-4 lg:mt-20 mt-5">
-  <div class="flex gap-10 text-xl">
-      <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-      <i class="fa-brands fa-youtube" style="color: #8d8e91;"></i>
-      <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
-      <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
-      <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
-    </div>
-    <div>
-      <h1>Contacts</h1>
-      <h1>Reitoria da Universidade do Porto</h1>
-      <h1 class="mt-5">Praça Gomes Teixeira<br>
-        4099-002 Porto, Portugal</h1>
-      <h1 class="mt-5">Tel.: (+351) 220 408 000<br>
-        E-mail: up@up.pt</h1>
-      <h1></h1>
-</div>
-    </div>
-    <div class="flex lg:flex-row flex-col gap-5 lg:gap-10 text-white lg:mt-20 mt-5 pb-5">
-      <h1>University of Porto 2024</h1>
-      <h1>Personal Data Protectio</h1>
-      <h1>Privacy Policy</h1>
-      <h1>Accessibility</h1>
-    </div>
-
-<!-- Last line -->
-</div>
-</div>
+   
 </body>
 </html>
